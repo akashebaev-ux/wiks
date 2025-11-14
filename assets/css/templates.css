@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
+
+body {
+
+    background-color:  white;
+}
+/*Navbar custom CSS style*/
+
+.navbar-brand img {
+  height: 50px;
+  width: auto;
+}
+
+.navbar * {
+color: rgb(15, 4, 57);
+  font-size: 1.2rem;  
+  font-weight: 500;   
+  padding: 0.2rem 0.2rem;  
+
+}
+.navbar .btn-primary {
+  color: #ffffff !important;
+  justify-content: center;
+  background-color:   rgb(15, 4, 57);
+}
+.navbar .btn-primary:hover {
+background-color:  rgb(37, 8, 155);
+
+}
+
+.navbar .nav-link:hover {
+color: rgb(7, 114, 149);
+}
+.navbar .dropdown-item:hover {
+    color: rgb(7, 114, 149);
+
+}/*Templates page*/
+
+.search-form {
+
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: top;   
+   
+    margin-top: 60px;
+  }
+
+  input[type="text"] {
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    width: 300px;
+    outline: none;
+  }
+
+  input[type="text"]:focus {
+    border-color: #0078ff;
+    box-shadow: 0 0 5px rgba(0,120,255,0.4);
+  }
+
+    .search-input {
+    background: url('../images/icons8-search.gif') no-repeat 10px center;
+    background-size: 18px;
+    padding-left: 40px;
+  }
+
+  .col {
+    height: 30px;
+
+  }
