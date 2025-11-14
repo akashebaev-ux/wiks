@@ -24,7 +24,15 @@ color: rgb(15, 4, 57);
   background-color:   rgb(15, 4, 57);
 }
 .navbar .btn-primary:hover {
-background-color:  rgb(37, 8, 155);;
+background-color:  rgb(37, 8, 155);
+
+}
+
+.navbar .nav-link:hover {
+color: rgb(7, 114, 149);
+}
+.navbar .dropdown-item:hover {
+    color: rgb(7, 114, 149);
 
 }
 
@@ -79,6 +87,6 @@ h2 {
   background-color:   rgb(15, 4, 57);
 }
 #hero .btn-primary:hover {
-background-color:  rgb(37, 8, 155);;
+background-color:  rgb(37, 8, 155);
 
 }
